@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Estilo de Vida Sustentável</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0fff4;
+      color: #2e4e2e;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 30px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    h1, h2 {
+      color: #1b5e20;
+      text-align: center;
+      animation: slideDown 1s ease-in-out;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 12px;
+      animation: zoomIn 1.5s ease;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    button {
+      margin: 5px;
+      padding: 10px 16px;
+      background-color: #66bb6a;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #43a047;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #e0f2f1;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.95rem;
+      margin-top: 50px;
+      border-top: 2px solid #c8e6c9;
+      animation: fadeIn 2s ease;
+    }
+
+    footer a {
+      color: #1b5e20;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* ANIMAÇÕES */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes zoomIn {
+      from { transform: scale(0.9); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+<main>
+  <h1>Estilo de Vida Sustentável</h1>
+  <img src="sustentavel.png" alt="Estilo de vida sustentável">
+
+  <h2>O que é sustentabilidade?</h2>
+  <p>Sustentabilidade é mais do que uma moda ou tendência — é uma resposta urgente e inteligente à crise ambiental que vivemos. Ser sustentável significa viver de um jeito que respeite os limites da natureza, garantindo que os recursos naturais não se esgotem para as próximas gerações. É como se a Terra fosse uma grande conta bancária. Cada vez que usamos água, energia ou compramos algo, estamos sacando desse banco. O problema é que, se gastarmos mais do que a Terra pode renovar, o saldo vai virar negativo — e as futuras gerações vão pagar a conta.</p>
+
+  <h2>Por que ser sustentável?</h2>
+  <h2> Ser sustentável é um ato de responsabilidade, mas também de inteligência emocional e visão de futuro. Imagine um mundo com ar limpo, rios transparentes, florestas em pé e alimentos saudáveis. Agora pense que esse mundo só será possível se a gente começar a agir agora — nas pequenas escolhas do dia a dia. Quando você separa o lixo, anda mais a pé, economiza água no banho ou recusa uma sacola plástica, você está dizendo:
+
+<h2>“Eu sou completamente inteirado do que faço para um futuro melhor. Eu me importo com as próximas gerações.”</h2>
+
+<h2></h2>Além disso, empresas e governos estão cada vez mais valorizando atitudes e profissionais sustentáveis. Isso significa que adotar esse estilo de vida também abre portas no mercado de trabalho.</h2>
+
+  <section id="como-ser-sustentavel">
+  <h2>Como ter um estilo de vida sustentável?</h2>
+  <p>Ter um estilo de vida sustentável pode parecer difícil, mas começa com <strong>pequenas decisões conscientes</strong> que, somadas, fazem uma grande diferença.</p>
+
+  <p>Aqui vão alguns passos práticos para você já aplicar hoje:</p>
+
+  <ul>
+    <li><strong>Consuma menos e melhor:</strong> antes de comprar, pergunte: "Eu preciso disso mesmo?". Prefira produtos duráveis, locais e recicláveis.</li>
+    <li><strong>Evite desperdício de água e energia:</strong> desligue a luz ao sair, feche a torneira ao escovar os dentes e tome banhos mais curtos.</li>
+    <li><strong>Reduza, Reuse, Recicle:</strong> dê nova vida a roupas, objetos e embalagens. Reutilizar é uma arte!</li>
+    <li><strong>Alimente-se de forma consciente:</strong> prefira alimentos frescos, evite desperdício e valorize produtores locais.</li>
+    <li><strong>Use transporte sustentável:</strong> caminhar, pedalar ou usar transporte público reduz emissões e ainda melhora sua saúde.</li>
+    <li><strong>Fale sobre isso:</strong> seja um exemplo. Compartilhe ideias com amigos e familiares. Sustentabilidade também se espalha com a fala.</li>
+  </ul>
+
+  <p><em>A mudança não começa com os governos, nem com as grandes empresas. <strong>Ela começa com uma mente consciente.</strong></em></p>
+</section>
+
+  <h2>Dicas Visuais</h2>
+  <img src="dica_01.gif.png" alt="Dica sustentável" id="myImage">
+  <div style="text-align:center;">
+    <button onclick="document.getElementById('myImage').src='dica_01.gif.png'">Dica 1</button>
+    <button onclick="document.getElementById('myImage').src='dica_02.gif.png'">Dica 2</button>
+    <button onclick="document.getElementById('myImage').src='dica_03.gif.png'">Dica 3</button>
+    <button onclick="document.getElementById('myImage').src='dica_04.gif.png'">Dica 4</button>
+    <button onclick="document.getElementById('myImage').src='dica_05.gif.png'">Dica 5</button>
+    <button onclick="document.getElementById('myImage').src='dica_06.gif.png'">Dica 6</button>
+  </div>
+
+  <h2>ODS - Objetivos de Desenvolvimento Sustentável</h2>
+  <p>Os <strong>17 ODS</strong> fazem parte da Agenda 2030 da ONU. Eles são metas globais para um mundo melhor. Conheça todos:</p>
+  <ul>
+    <li><a href="https://brasil.un.org/pt-br/sdgs" target="_blank">Acesse os 17 ODS aqui</a></li>
+    <li><a href="https://ods.fapesp.br/noticias/parcerias-e-meios-de-implementacao" target="_blank">E como podemos implementar esses objetivos?</a></li>
+    <li><a href="https://www.institutosomos.org/ods-saiba-o-que-sao-e-como-voce-pode-ajudar-a-alcanca-los/" target="_blank">Como eu posso ajudar?</a></li>  
+</ul>
+
+  <h2>Conclusão</h2>
+  <p>Um mundo melhor começa com pequenas atitudes. Ser sustentável é amar a criação e cuidar do amanhã. Seja parte da mudança!</strong></p>
+</main>
+
+<footer>
+  <hr>
+  <p><strong>Trabalho acadêmico feito por:</strong></p>
+  <p>GABRIEL ANDRADE SOARES (líder) - H57JJA7</p>
+  <p>MURILLO VIEIRA DE CARVALHO - R838DH5</p>
+  <p>LUIZ GUSTAVO DA SILVA SOUZA - H702720</p>
+  <p><em>Ciência da Computação - Atividades Práticas Supervisionadas - 2025</em></p>
+</footer>
+
+<footer>
+  <p><strong>Links úteis:</strong></p>
+  <a href="https://www.ecycle.com.br" target="_blank">eCycle</a>
+  <a href="https://www.suade.org.br" target="_blank">SUADE</a>
+  <a href="https://www.wwf.org.br" target="_blank">WWF Brasil</a>
+  <a href="https://www.pegadaecologica.org.br" target="_blank">Pegada Ecológica</a>
+  <p>&copy; 2025 - Projeto acadêmico</p>
+</footer>
+
+</body>
+</html>
